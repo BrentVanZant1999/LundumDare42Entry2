@@ -1,6 +1,11 @@
 shadowOffsetY = 4;
 shadowOffsetX = 2;
 
+sizeMin = 30; 
+sizeMax = 140; 
+minSpeed = 1;
+maxSpeed = 5;
+
 
 colorTheme1 = c_red;
 colorTheme2 = c_purple;

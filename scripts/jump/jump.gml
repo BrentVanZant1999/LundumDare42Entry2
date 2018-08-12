@@ -132,5 +132,5 @@ else if (objBoxy.myLevel == 14) {
 }
 
 if (failed == true) {
-	fall(); 	
+	fall(myLevel); 	
 }

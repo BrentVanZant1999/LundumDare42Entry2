@@ -47,11 +47,27 @@
             }
         },
         {
+            "Key": "0be1e9d5-24c3-4e3c-87db-db4cd9dfa1f4",
+            "Value": {
+                "id": "ea4ed14c-92cd-4985-a9be-21534370d909",
+                "resourcePath": "objects\\objPlatform3\\objPlatform3.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "12e8a824-e09c-444d-9dff-812331b58ba2",
             "Value": {
                 "id": "5d095961-595b-4a9a-8bf1-0213422b515e",
                 "resourcePath": "views\\12e8a824-e09c-444d-9dff-812331b58ba2.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "14215348-076e-426a-a92d-dc142a26e67c",
+            "Value": {
+                "id": "248a4641-8481-406e-a22f-bfa75ce69351",
+                "resourcePath": "objects\\objPlatform5\\objPlatform5.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -84,6 +100,14 @@
                 "id": "58bc47f7-d267-47d6-adea-9dd84bf84e4f",
                 "resourcePath": "views\\50ea5e86-6832-4c7f-982c-ac3e746ce080.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "587d8d11-11d7-4c4a-a413-2dcef7caa991",
+            "Value": {
+                "id": "680bab0a-e047-49c7-addd-52fd7874c474",
+                "resourcePath": "objects\\objPlatform6\\objPlatform6.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -143,6 +167,14 @@
             }
         },
         {
+            "Key": "a8dde3b6-539a-4f8c-8777-3897b2c16cae",
+            "Value": {
+                "id": "fd69626d-9022-4b2d-b122-243795f54f3b",
+                "resourcePath": "objects\\objPlatform7\\objPlatform7.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "c913f51f-a327-4e8d-8feb-2c2ef5b60b91",
@@ -172,14 +204,6 @@
                 "id": "58bdf3bc-1dc9-4941-8704-a9530f706fc9",
                 "resourcePath": "rooms\\room0\\room0.yy",
                 "resourceType": "GMRoom"
-            }
-        },
-        {
-            "Key": "b0313ac7-d9ec-4eb4-a862-49e201a500d8",
-            "Value": {
-                "id": "67a232a9-a7f7-48c6-9fb8-5eb2867be194",
-                "resourcePath": "objects\\objPlatform2\\objPlatform2.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -231,6 +255,14 @@
             }
         },
         {
+            "Key": "d5ba0cae-5faf-46a6-ac28-0ffb4b05acdb",
+            "Value": {
+                "id": "10283372-f975-4de4-8feb-f7d3088ee039",
+                "resourcePath": "objects\\objPlatform4\\objPlatform4.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "db6b10a4-ba59-48c1-aace-8578ea57939d",
             "Value": {
                 "id": "7cb21771-5368-4de0-8daf-213f4b765438",
@@ -252,6 +284,14 @@
                 "id": "e23f7464-000b-4cee-8394-d2cf8e01a0b5",
                 "resourcePath": "options\\android\\options_android.yy",
                 "resourceType": "GMAndroidOptions"
+            }
+        },
+        {
+            "Key": "f248ff6f-b475-4394-8b51-878c0fed3898",
+            "Value": {
+                "id": "392f0ac5-7631-48df-bbf6-971c45bb3233",
+                "resourcePath": "objects\\objPlatform2\\objPlatform2.yy",
+                "resourceType": "GMObject"
             }
         },
         {

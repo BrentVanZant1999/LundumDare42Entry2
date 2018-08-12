@@ -25,25 +25,25 @@ for (var i = 0; i<7; i++){
 		var created;
 		switch(i) {
 			case(0):
-				created = instance_create(spawnX,spawnY, -1, objPlatform1);
+				created = instance_create_depth(spawnX,spawnY, -1, objPlatform1);
 			break;
 			case(1):
-				created = instance_create(spawnX,spawnY, -1, objPlatform2);
+				created = instance_create_depth(spawnX,spawnY, -3, objPlatform2);
 			break;
 			case(2):
-				created = instance_create(spawnX,spawnY, -1, objPlatform3);
+				created = instance_create_depth(spawnX,spawnY, -5, objPlatform3);
 			break;
 			case(3):
-				created = instance_create(spawnX,spawnY, -1, objPlatform4);
+				created = instance_create_depth(spawnX,spawnY, -7, objPlatform4);
 			break;
 			case(4):
-				created = instance_create(spawnX,spawnY, -1, objPlatform5);
+				created = instance_create_depth(spawnX,spawnY, -9, objPlatform5);
 			break;
 			case(5):
-				created = instance_create(spawnX,spawnY, -1, objPlatform6);
+				created = instance_create_depth(spawnX,spawnY, -11, objPlatform6);
 			break;
 			case(6):
-				created = instance_create(spawnX,spawnY, -1, objPlatform7);
+				created = instance_create_depth(spawnX,spawnY, -13, objPlatform7);
 			break;		
 		}
 		created.mySize = size; 
