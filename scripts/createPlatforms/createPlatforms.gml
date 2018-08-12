@@ -14,7 +14,7 @@ for (var i = 0; i<7; i++){
 		spawnX =irandom_range(objDataTracker.sizeMin, 600-objDataTracker.sizeMin);
 	}
 	else {
-		if ( choice == 2) {
+		if ( choice == 1) {
 			spawnX = -size; 
 		}
 		else {
@@ -22,8 +22,41 @@ for (var i = 0; i<7; i++){
 		}
 		spawnY =irandom_range(objDataTracker.sizeMin, 600-objDataTracker.sizeMin);
 	}
-	if ( i ==0 ) {
-		var created = instance_create(spawnX,spawnY, -1, objPlatform1);
-		
-	}
+		var created;
+		switch(i) {
+			case(0):
+				created = instance_create(spawnX,spawnY, -1, objPlatform1);
+			break;
+			case(1):
+				created = instance_create(spawnX,spawnY, -1, objPlatform2);
+			break;
+			case(2):
+				created = instance_create(spawnX,spawnY, -1, objPlatform3);
+			break;
+			case(3):
+				created = instance_create(spawnX,spawnY, -1, objPlatform4);
+			break;
+			case(4):
+				created = instance_create(spawnX,spawnY, -1, objPlatform5);
+			break;
+			case(5):
+				created = instance_create(spawnX,spawnY, -1, objPlatform6);
+			break;
+			case(6):
+				created = instance_create(spawnX,spawnY, -1, objPlatform7);
+			break;		
+		}
+		created.mySize = size; 
+		if (choice == 0){
+			created.mySpeedY = givenSpeed;
+		}
+		else if (choice == 1) {
+			created.mySpeedX = givenSpeed;
+		}
+		else if (choice == 2) {
+			created.mySpeedY = -givenSpeed;
+		}
+		else {
+			created.mySpeedX = -givenSpeed; 
+		}
 }
