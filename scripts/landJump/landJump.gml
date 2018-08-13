@@ -55,8 +55,9 @@ if ( point_in_rectangle(objBoxy.x, objBoxy.y, nearest.x-(nearest.mySize/2), near
 	failed = false; 
 }
 if (failed == true) {
-	fall(myLevel); 	
+	fall(objBoxy.myLevel); 	
 }
+
 else {
 	audio_play_sound(sndLowerJump, 2, false);
 	checkBoxColor();

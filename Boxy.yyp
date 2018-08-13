@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "4045e6f7-71dd-4d3d-98d2-7b139653cd9d",
+            "Value": {
+                "id": "9d8fc7a3-149a-4e08-8cd7-c167e93afd5c",
+                "resourcePath": "objects\\modal\\modal.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4bc5d9d0-ee19-4ec1-bad5-d018af1ada35",
             "Value": {
                 "id": "d127a8ab-1638-4dd8-a09a-e277037acc10",
@@ -139,6 +147,14 @@
             "Value": {
                 "id": "680bab0a-e047-49c7-addd-52fd7874c474",
                 "resourcePath": "objects\\objPlatform6\\objPlatform6.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7824a187-cad7-4945-81d5-61c1dba89533",
+            "Value": {
+                "id": "0eeb1d16-d7bf-444b-86a2-99b49412b8ec",
+                "resourcePath": "objects\\menuModal\\menuModal.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -255,6 +271,14 @@
             }
         },
         {
+            "Key": "aef5e87e-bb35-43b6-8f60-93ca257eecbc",
+            "Value": {
+                "id": "d15ea5fd-c36a-4742-9593-a28c67ea811f",
+                "resourcePath": "views\\aef5e87e-bb35-43b6-8f60-93ca257eecbc.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "afb01951-a378-4930-87db-858e3daeb5dd",
             "Value": {
                 "id": "58bdf3bc-1dc9-4941-8704-a9530f706fc9",
@@ -284,6 +308,14 @@
                 "id": "f1727571-c6f3-40f5-bf04-3b7e4bd69e78",
                 "resourcePath": "objects\\objDataTracker\\objDataTracker.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "bda22fff-bf7e-46c2-bfb4-997b40d4982f",
+            "Value": {
+                "id": "87bb84aa-e2ff-4d43-86bf-df9c63039686",
+                "resourcePath": "rooms\\rm_menu\\rm_menu.yy",
+                "resourceType": "GMRoom"
             }
         },
         {

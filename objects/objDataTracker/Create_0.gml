@@ -13,6 +13,8 @@ shadowOffsetX6 = 3;
 shadowOffsetY7 = 8;
 shadowOffsetX7 = 4;
 
+
+modalSize = 500;
 sizeMin = 30; 
 sizeMax = 140; 
 minSpeed = 0.5;
