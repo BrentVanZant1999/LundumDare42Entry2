@@ -14,14 +14,15 @@ shadowOffsetY7 = 8;
 shadowOffsetX7 = 4;
 window_set_cursor(cr_none);
 inGame = false; 
-
-
+gameTimer = 60; 
+inGameScore = 0; 
 modalSize = 500;
 sizeMin = 30; 
 sizeMax = 140; 
 minSpeed = 0.5;
 maxSpeed = 5;
 fallTime = 2; 
+difficulty = 1;
 
 startBoxySize = 20;
 maskColor = make_color_rgb(185,198,202);
@@ -32,6 +33,7 @@ colorTheme4 = make_color_rgb(194,87,123);
 colorTheme5 = make_color_rgb(232,172,184);
 colorTheme6 = make_color_rgb(96,213,218);
 colorTheme7 = make_color_rgb(231,242,234);
+colorText = make_color_rgb(27,30,41);
 
 plat1Speed = 0.25; 
 plat2Speed = 0.5; 

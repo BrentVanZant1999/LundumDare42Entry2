@@ -28,3 +28,9 @@ instance_destroy();
 with(obj_spawner){
 instance_destroy();	
 }
+with(menuModal){
+instance_destroy();	
+}
+with(modal){
+instance_destroy();	
+}

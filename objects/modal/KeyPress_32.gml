@@ -1,0 +1,2 @@
+objDataTracker.difficulty = difficulty;
+startRound();

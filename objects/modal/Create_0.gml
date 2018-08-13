@@ -6,3 +6,14 @@ stepSize = (objDataTracker.modalSize*2)/40;
 alarm[1] = 1;
 alarm[2] = 31;
 mySize = objDataTracker.modalSize;
+
+stringDifficulty1 = "  easy  ";
+stringDifficulty2 = " medium ";
+stringDifficulty3 = "  hard  ";
+stringDifficulty4 = " insane ";
+stringControl = "(Control with arrow keys)";
+stringPlay1 = "Press space";
+stringPlay2 = " to play ";
+stringExit1 = "Press Escape";
+stringExit2 = "to exit";
+difficulty = 1; 

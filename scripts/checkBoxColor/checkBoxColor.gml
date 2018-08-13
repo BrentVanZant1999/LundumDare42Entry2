@@ -31,6 +31,3 @@ else if (level == 12) {
 	objCursor.myColor = objDataTracker.colorTheme7;
 	objBoxyMask.myColor = objDataTracker.colorTheme7;
 }
-else if (level == 14) {
-	objCursor.myColor = objDataTracker.colorTheme8;
-}
