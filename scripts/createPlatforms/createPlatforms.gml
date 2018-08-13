@@ -1,7 +1,7 @@
 for (var i = 0; i<7; i++){
 	var spawnX = 0;
 	var spawnY = 0;
-	var size = irandom_range(objDataTracker.sizeMin, objDataTracker.sizeMax);
+	var size = random_range(objDataTracker.sizeMin, objDataTracker.sizeMax);
 	var givenSpeed = irandom_range(objDataTracker.minSpeed, objDataTracker.maxSpeed)
 	var choice = choose(0,1,2,3);
 	if (choice == 0 || choice ==2) {
@@ -9,7 +9,7 @@ for (var i = 0; i<7; i++){
 			spawnY = -size; 
 		}
 	    else {
-			spawnY = size+400;
+			spawnY = size+room_height;
 		}
 		spawnX =irandom_range(objDataTracker.sizeMin, 600-objDataTracker.sizeMin);
 	}
@@ -18,7 +18,7 @@ for (var i = 0; i<7; i++){
 			spawnX = -size; 
 		}
 		else {
-			spawnX = size+600; 
+			spawnX = size+room_width; 
 		}
 		spawnY =irandom_range(objDataTracker.sizeMin, 600-objDataTracker.sizeMin);
 	}

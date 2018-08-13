@@ -1,136 +1,59 @@
-//jump(angle);
+//landJump();
 objBoxy.depth -=2; 
 //if jump lands maintain depth
 //if not lose depth.
 objBoxy.myLevel+=2; 
 var failed = true;
 if (objBoxy.myLevel == 2){
-	if (instance_position(objBoxy.x+objBoxy.size/2, objBoxy.y+objBoxy.size/2, objPlatform1)){
-		objBoxy.isOnPlat = true;
-		failed = false;
-	}
-	else if (instance_position(objBoxy.x-objBoxy.size/2, objBoxy.y+objBoxy.size/2, objPlatform1)){
-		objBoxy.isOnPlat = true;
-		failed = false;
-	}
-	else if (instance_position(objBoxy.x-objBoxy.size/2, objBoxy.y-objBoxy.size/2, objPlatform1)){
-		objBoxy.isOnPlat = true;
-		failed = false;
-	}	
-	else if (instance_position(objBoxy.x+objBoxy.size/2, objBoxy.y-objBoxy.size/2, objPlatform1)){
-		objBoxy.isOnPlat = true;
-		failed = false;
-	}
+//get nearest object. 
+nearest = instance_nearest(objBoxy.x,objBoxy.y,objPlatform1);
 }
-else if (objBoxy.myLevel == 4) {
-	if (instance_position(objBoxy.x+objBoxy.size/2, objBoxy.y+objBoxy.size/2, objPlatform2)){
-		objBoxy.isOnPlat = true;
-		failed = false;
-	}
-	else if (instance_position(objBoxy.x-objBoxy.size/2, objBoxy.y+objBoxy.size/2, objPlatform2)){
-		objBoxy.isOnPlat = true;
-		failed = false;
-	}
-	else if (instance_position(objBoxy.x-objBoxy.size/2, objBoxy.y-objBoxy.size/2, objPlatform2)){
-		objBoxy.isOnPlat = true;
-		failed = false;
-	}	
-	else if (instance_position(objBoxy.x+objBoxy.size/2, objBoxy.y-objBoxy.size/2, objPlatform2)){
-		objBoxy.isOnPlat = true;
-		failed = false;
-	}
+if (objBoxy.myLevel == 4){
+//get nearest object. 
+nearest = instance_nearest(objBoxy.x,objBoxy.y,objPlatform2);
 }
-else if (objBoxy.myLevel == 6) {
-	if (instance_position(objBoxy.x+objBoxy.size/2, objBoxy.y+objBoxy.size/2, objPlatform3)){
-		objBoxy.isOnPlat = true;
-		failed = false;
-	}
-	else if (instance_position(objBoxy.x-objBoxy.size/2, objBoxy.y+objBoxy.size/2, objPlatform3)){
-		objBoxy.isOnPlat = true;
-		failed = false;
-	}
-	else if (instance_position(objBoxy.x-objBoxy.size/2, objBoxy.y-objBoxy.size/2, objPlatform3)){
-		objBoxy.isOnPlat = true;
-		failed = false;
-	}	
-	else if (instance_position(objBoxy.x+objBoxy.size/2, objBoxy.y-objBoxy.size/2, objPlatform3)){
-		objBoxy.isOnPlat = true;
-		failed = false;
-	}
-}
-else if (objBoxy.myLevel == 8) {
-	if (instance_position(objBoxy.x+objBoxy.size/2, objBoxy.y+objBoxy.size/2, objPlatform4)){
-		objBoxy.isOnPlat = true;
-		failed = false;
-	}
-	else if (instance_position(objBoxy.x-objBoxy.size/2, objBoxy.y+objBoxy.size/2, objPlatform4)){
-		objBoxy.isOnPlat = true;
-		failed = false;
-	}
-	else if (instance_position(objBoxy.x-objBoxy.size/2, objBoxy.y-objBoxy.size/2, objPlatform4)){
-		objBoxy.isOnPlat = true;
-		failed = false;
-	}	
-	else if (instance_position(objBoxy.x+objBoxy.size/2, objBoxy.y-objBoxy.size/2, objPlatform4)){
-		objBoxy.isOnPlat = true;
-		failed = false;
-	}
-}
-else if (objBoxy.myLevel == 10) {
-	if (instance_position(objBoxy.x+objBoxy.size/2, objBoxy.y+objBoxy.size/2, objPlatform5)){
-		objBoxy.isOnPlat = true;
-		failed = false;
-	}
-	else if (instance_position(objBoxy.x-objBoxy.size/2, objBoxy.y+objBoxy.size/2, objPlatform5)){
-		objBoxy.isOnPlat = true;
-		failed = false;
-	}
-	else if (instance_position(objBoxy.x-objBoxy.size/2, objBoxy.y-objBoxy.size/2, objPlatform5)){
-		objBoxy.isOnPlat = true;
-		failed = false;
-	}	
-	else if (instance_position(objBoxy.x+objBoxy.size/2, objBoxy.y-objBoxy.size/2, objPlatform5)){
-		objBoxy.isOnPlat = true;
-		failed = false;
-	}
-}
-else if (objBoxy.myLevel == 12) {
-	if (instance_position(objBoxy.x+objBoxy.size/2, objBoxy.y+objBoxy.size/2, objPlatform6)){
-		objBoxy.isOnPlat = true;
-		failed = false;
-	}
-	else if (instance_position(objBoxy.x-objBoxy.size/2, objBoxy.y+objBoxy.size/2, objPlatform6)){
-		objBoxy.isOnPlat = true;
-		failed = false;
-	}
-	else if (instance_position(objBoxy.x-objBoxy.size/2, objBoxy.y-objBoxy.size/2, objPlatform6)){
-		objBoxy.isOnPlat = true;
-		failed = false;
-	}	
-	else if (instance_position(objBoxy.x+objBoxy.size/2, objBoxy.y-objBoxy.size/2, objPlatform6)){
-		objBoxy.isOnPlat = true;
-		failed = false;
-	}
-}
-else if (objBoxy.myLevel == 14) {
-	if (instance_position(objBoxy.x+objBoxy.size/2, objBoxy.y+objBoxy.size/2, objPlatform7)){
-		objBoxy.isOnPlat = true;
-		failed = false;
-	}
-	else if (instance_position(objBoxy.x-objBoxy.size/2, objBoxy.y+objBoxy.size/2, objPlatform7)){
-		objBoxy.isOnPlat = true;
-		failed = false;
-	}
-	else if (instance_position(objBoxy.x-objBoxy.size/2, objBoxy.y-objBoxy.size/2, objPlatform7)){
-		objBoxy.isOnPlat = true;
-		failed = false;
-	}	
-	else if (instance_position(objBoxy.x+objBoxy.size/2, objBoxy.y-objBoxy.size/2, objPlatform7)){
-		objBoxy.isOnPlat = true;
-		failed = false;
-	}
+if (objBoxy.myLevel == 6){
+//get nearest object. 
+nearest = instance_nearest(objBoxy.x,objBoxy.y,objPlatform3);
 }
 
+if (objBoxy.myLevel == 8){
+//get nearest object. 
+nearest = instance_nearest(objBoxy.x,objBoxy.y,objPlatform4);
+}
+
+if (objBoxy.myLevel == 10){
+//get nearest object. 
+nearest = instance_nearest(objBoxy.x,objBoxy.y,objPlatform5);
+}
+
+if (objBoxy.myLevel == 12){
+//get nearest object. 
+nearest = instance_nearest(objBoxy.x,objBoxy.y,objPlatform6);
+}
+
+if (objBoxy.myLevel == 14){
+	//get nearest object. 
+	nearest = instance_nearest(objBoxy.x,objBoxy.y,objPlatform7);
+}
+
+
+if ( point_in_rectangle(objBoxy.x-(objBoxy.size/2), objBoxy.y-(objBoxy.size/2), nearest.x-(nearest.mySize/2), nearest.y-(nearest.mySize/2), nearest.x+(nearest.mySize/2), nearest.y+(nearest.mySize/2))){
+	objBoxy.isOnPlat = true;
+	failed = false; 
+}
+if ( point_in_rectangle(objBoxy.x+(objBoxy.size/2), objBoxy.y-(objBoxy.size/2), nearest.x-(nearest.mySize/2), nearest.y-(nearest.mySize/2), nearest.x+(nearest.mySize/2), nearest.y+(nearest.mySize/2))){
+	objBoxy.isOnPlat = true;
+	failed = false; 
+}
+if ( point_in_rectangle(objBoxy.x+(objBoxy.size/2), objBoxy.y+(objBoxy.size/2), nearest.x-(nearest.mySize/2), nearest.y-(nearest.mySize/2), nearest.x+(nearest.mySize/2), nearest.y+(nearest.mySize/2))){
+	objBoxy.isOnPlat = true;
+	failed = false; 
+}
+if ( point_in_rectangle(objBoxy.x-(objBoxy.size/2), objBoxy.y+(objBoxy.size/2), nearest.x-(nearest.mySize/2), nearest.y-(nearest.mySize/2), nearest.x+(nearest.mySize/2), nearest.y+(nearest.mySize/2))){
+	objBoxy.isOnPlat = true;
+	failed = false; 
+}
 if (failed == true) {
 	fall(myLevel); 	
 }

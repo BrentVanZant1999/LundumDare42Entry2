@@ -1,6 +1,5 @@
-myLevel = -1;
+myLevel = -11;
 myColor = objDataTracker.colorTheme6;
-depth = myLevel; 
 
 mySpeedX = 0;
 mySpeedY = 0;
