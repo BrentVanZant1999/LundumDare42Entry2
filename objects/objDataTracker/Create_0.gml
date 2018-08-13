@@ -1,3 +1,4 @@
+randomize();
 depth = -100; 
 shadowOffsetY1 = 4;
 shadowOffsetX1 = 2;

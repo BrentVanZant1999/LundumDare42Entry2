@@ -1,11 +1,11 @@
 depth = -40;
 x=room_width/2;
-y=-objDataTracker.modalSize;
+y=- (room_height/2)-50-200;
 isMoving = false; 
-stepSize = (objDataTracker.modalSize*2)/40;
+stepSize = ( ((room_height/2)-50)+((room_height/4)*3))/40;
 alarm[1] = 1;
 alarm[2] = 31;
-mySize = objDataTracker.modalSize;
+mySize = room_height/2+50;
 
 stringDifficulty1 = "  easy  ";
 stringDifficulty2 = " medium ";
@@ -16,6 +16,6 @@ stringPlay1 = "Press space";
 stringPlay2 = " to play ";
 stringExit1 = "Press Escape";
 stringExit2 = "to exit";
-stringWin = "You Win!";
-stringLoss ="You Lost";
+stringTut1 = "Press T";
+stringTut2 = "for tutorial";
 difficulty = objDataTracker.difficulty; 
