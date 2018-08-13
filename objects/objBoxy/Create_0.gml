@@ -1,5 +1,5 @@
 myLevel = 0;
-myColor = objDataTracker.colorTheme1;
+myColor = objDataTracker.colorTheme7;
 myGroundSpeedX = 0;
 myGroundSpeedY = 0;
 myMovSpeed = 4; 

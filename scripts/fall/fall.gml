@@ -1,5 +1,6 @@
 //fall(myLevel) 
 myLevel = argument0; 
+objBoxy.mySize -=2;
 objBoxy.myGroundSpeedX =0;
 objBoxy.myGroundSpeedY = 0;
 objBoxy.isOnPlat = false;

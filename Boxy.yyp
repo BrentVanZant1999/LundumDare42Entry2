@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "3e249d4c-7d8d-4002-a5b7-eab657e6641d",
+            "Value": {
+                "id": "9df19d94-a5b5-4e89-984c-e30bac3eef85",
+                "resourcePath": "objects\\objCursor\\objCursor.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4045e6f7-71dd-4d3d-98d2-7b139653cd9d",
             "Value": {
                 "id": "9d8fc7a3-149a-4e08-8cd7-c167e93afd5c",
@@ -151,6 +159,14 @@
             }
         },
         {
+            "Key": "626f785c-0bd2-490a-a299-aceb249f53aa",
+            "Value": {
+                "id": "403bbcca-7ae2-4aa8-9a29-0657140def86",
+                "resourcePath": "scripts\\startRound\\startRound.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "7824a187-cad7-4945-81d5-61c1dba89533",
             "Value": {
                 "id": "0eeb1d16-d7bf-444b-86a2-99b49412b8ec",
@@ -164,6 +180,14 @@
                 "id": "e0e92ddb-1899-4eae-8092-baf68916d33c",
                 "resourcePath": "options\\ios\\options_ios.yy",
                 "resourceType": "GMiOSOptions"
+            }
+        },
+        {
+            "Key": "854f0959-bcdb-4016-9a7b-47f86dd0bfbd",
+            "Value": {
+                "id": "4f5d72ca-dc25-460f-b2f6-6b294de6c31f",
+                "resourcePath": "scripts\\clearLevel\\clearLevel.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -375,6 +399,14 @@
             }
         },
         {
+            "Key": "d87f4e7a-6b24-4059-abfa-8b2a7e55af09",
+            "Value": {
+                "id": "d7676b10-5e98-41e8-b0da-e72b65f2f942",
+                "resourcePath": "scripts\\endGame\\endGame.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "db6b10a4-ba59-48c1-aace-8578ea57939d",
             "Value": {
                 "id": "7cb21771-5368-4de0-8daf-213f4b765438",
@@ -453,7 +485,10 @@
         "8ab800cc-66ba-4bde-a2e9-b6631d3d7666",
         "b4fc7d6f-8ae1-42a5-ad2d-de6113cedcfd",
         "f9cd87e2-286b-40aa-b21b-8d71a73155fb",
-        "4df03be7-1d20-4447-a426-6425298b9193"
+        "4df03be7-1d20-4447-a426-6425298b9193",
+        "854f0959-bcdb-4016-9a7b-47f86dd0bfbd",
+        "626f785c-0bd2-490a-a299-aceb249f53aa",
+        "d87f4e7a-6b24-4059-abfa-8b2a7e55af09"
     ],
     "tutorial": ""
 }

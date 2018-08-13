@@ -1,29 +1,36 @@
 var level = objBoxy.myLevel;
 if (level == 0) {
-	objBoxy.myColor = objDataTracker.colorTheme1;
+	objCursor.myColor = objDataTracker.colorTheme1;	
+	objBoxyMask.myColor = objDataTracker.colorTheme1;
 }
 
 
 if (level == 2) {
-	objBoxy.myColor = objDataTracker.colorTheme2;
+	objCursor.myColor = objDataTracker.colorTheme2;
+	objBoxyMask.myColor = objDataTracker.colorTheme2;
 }
 
 else if (level == 4) {
-	objBoxy.myColor = objDataTracker.colorTheme3;
+	objCursor.myColor = objDataTracker.colorTheme3;
+	objBoxyMask.myColor = objDataTracker.colorTheme3;
 }
 
 else if (level == 6) {
-	objBoxy.myColor = objDataTracker.colorTheme4;
+	objCursor.myColor = objDataTracker.colorTheme4;
+	objBoxyMask.myColor = objDataTracker.colorTheme4;
 }
 else if (level == 8) {
-	objBoxy.myColor = objDataTracker.colorTheme5;
+	objCursor.myColor = objDataTracker.colorTheme5;
+	objBoxyMask.myColor = objDataTracker.colorTheme5;
 }
 else if (level == 10) {
-	objBoxy.myColor = objDataTracker.colorTheme6;
+	objCursor.myColor = objDataTracker.colorTheme6;
+	objBoxyMask.myColor = objDataTracker.colorTheme6;
 }
 else if (level == 12) {
-	objBoxy.myColor = objDataTracker.colorTheme7;
+	objCursor.myColor = objDataTracker.colorTheme7;
+	objBoxyMask.myColor = objDataTracker.colorTheme7;
 }
 else if (level == 14) {
-	objBoxy.myColor = objDataTracker.colorTheme8;
+	objCursor.myColor = objDataTracker.colorTheme8;
 }

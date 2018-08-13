@@ -12,6 +12,8 @@ shadowOffsetY6 = 7;
 shadowOffsetX6 = 3;
 shadowOffsetY7 = 8;
 shadowOffsetX7 = 4;
+window_set_cursor(cr_none);
+inGame = false; 
 
 
 modalSize = 500;
@@ -22,7 +24,7 @@ maxSpeed = 5;
 fallTime = 2; 
 
 startBoxySize = 20;
-maskColor = make_color_rgb(252,195,124);
+maskColor = make_color_rgb(185,198,202);
 colorTheme1 = make_color_rgb(247,242,153);
 colorTheme2 = make_color_rgb(162,222,131);
 colorTheme3 =make_color_rgb(130,112,142);

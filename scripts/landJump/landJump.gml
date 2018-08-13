@@ -66,4 +66,8 @@ else {
 	objBoxy.myGroundSpeedX = nearest.mySpeedX;
 	objBoxy.myGroundSpeedY = nearest.mySpeedY;
 	nearest.isShrinking = true;
+	
+	if (objBoxy.myLevel == 14){
+		endGame();	
+	}
 }

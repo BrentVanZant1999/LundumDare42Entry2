@@ -45,5 +45,23 @@ if (isOnPlat) {
 	platStand();
 }
 
-
+if (mySize < objDataTracker.startBoxySize){
+	mySize = objDataTracker.startBoxySize;
+}
 //check boundary logic
+if ( x < 0 ) {
+  var tempX = -x;
+  x = room_width - tempX;
+}
+if ( x > room_width ) {
+  var tempX = x % room_width;
+  x = tempX;
+}
+if ( y < 0 ) {
+  var tempY = -y;
+  y = room_height - tempY;
+}
+if ( y > room_height ) {
+  var tempY = y % room_height;
+  y = tempY;
+}
