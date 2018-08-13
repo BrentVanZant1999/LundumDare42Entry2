@@ -68,7 +68,9 @@ else {
 	nearest.isShrinking = true;
 	
 	if (objBoxy.myLevel == 14){
+		if (!instance_exists(objTutControl)) {
 		objDataTracker.isWon = true;
 		endGame();	
+		}
 	}
 }

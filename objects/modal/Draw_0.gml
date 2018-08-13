@@ -113,3 +113,17 @@ draw_text(x-2,y+228,stringExit2);
 draw_set_color(objDataTracker.colorText);
 draw_set_alpha(1);
 draw_text(x,y+224,stringExit2);
+
+draw_set_color(c_black);
+draw_set_alpha(0.3);
+draw_set_font(ft_main);
+draw_text(x-2,y+92,stringTut1);
+draw_set_color(objDataTracker.colorText);
+draw_set_alpha(1);
+draw_text(x,y+88,stringTut1);
+draw_set_color(c_black);
+draw_set_alpha(0.3);
+draw_text(x-2,y+131,stringTut2);
+draw_set_color(objDataTracker.colorText);
+draw_set_alpha(1);
+draw_text(x,y+127,stringTut2);

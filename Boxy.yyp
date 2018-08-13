@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "489ba732-33f1-4e52-89d5-d613026902d6",
+            "Value": {
+                "id": "c44216bd-b052-4c8f-a0c7-c72f6040ee2c",
+                "resourcePath": "rooms\\rm_tut\\rm_tut.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "4bc5d9d0-ee19-4ec1-bad5-d018af1ada35",
             "Value": {
                 "id": "d127a8ab-1638-4dd8-a09a-e277037acc10",
@@ -292,6 +300,14 @@
                 "id": "216a7a26-bcfd-40a3-bdfc-96c767291a88",
                 "resourcePath": "views\\aa85bb9b-3876-4c67-9c64-6dfb9f28d541.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ab522f31-667b-44b4-ae19-c3130014ab34",
+            "Value": {
+                "id": "499a162c-cc37-43e2-9d52-32bdf2feefa4",
+                "resourcePath": "objects\\objTutControl\\objTutControl.yy",
+                "resourceType": "GMObject"
             }
         },
         {

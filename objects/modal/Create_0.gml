@@ -18,4 +18,6 @@ stringExit1 = "Press Escape";
 stringExit2 = "to exit";
 stringWin = "You Win!";
 stringLoss ="You Lost";
+stringTut1 = "Press T";
+stringTut2 = "for tutorial";
 difficulty = objDataTracker.difficulty; 
