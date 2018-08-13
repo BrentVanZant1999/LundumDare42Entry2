@@ -1,6 +1,5 @@
 //landJump();
 var failed = true;
-objBoxy.isJumping=false;
 if (objBoxy.myLevel == 2){
 //get nearest object. 
 nearest = instance_nearest(objBoxy.x,objBoxy.y,objPlatform1);
@@ -35,34 +34,23 @@ if (objBoxy.myLevel == 14){
 }
 
 if ( point_in_rectangle(objBoxy.x-(objBoxy.mySize/2), objBoxy.y-(objBoxy.mySize/2), nearest.x-(nearest.mySize/2), nearest.y-(nearest.mySize/2), nearest.x+(nearest.mySize/2), nearest.y+(nearest.mySize/2))){
-	objBoxy.isOnPlat = true;
 	failed = false; 
 }
 if ( point_in_rectangle(objBoxy.x+(objBoxy.mySize/2), objBoxy.y-(objBoxy.mySize/2), nearest.x-(nearest.mySize/2), nearest.y-(nearest.mySize/2), nearest.x+(nearest.mySize/2), nearest.y+(nearest.mySize/2))){
-	objBoxy.isOnPlat = true;
 	failed = false; 
 }
 if ( point_in_rectangle(objBoxy.x+(objBoxy.mySize/2), objBoxy.y+(objBoxy.mySize/2), nearest.x-(nearest.mySize/2), nearest.y-(nearest.mySize/2), nearest.x+(nearest.mySize/2), nearest.y+(nearest.mySize/2))){
-	objBoxy.isOnPlat = true;
 	failed = false; 
 }
 if ( point_in_rectangle(objBoxy.x-(objBoxy.mySize/2), objBoxy.y+(objBoxy.mySize/2), nearest.x-(nearest.mySize/2), nearest.y-(nearest.mySize/2), nearest.x+(nearest.mySize/2), nearest.y+(nearest.mySize/2))){
-	objBoxy.isOnPlat = true;
 	failed = false; 
 }
 if ( point_in_rectangle(objBoxy.x, objBoxy.y, nearest.x-(nearest.mySize/2), nearest.y-(nearest.mySize/2), nearest.x+(nearest.mySize/2), nearest.y+(nearest.mySize/2))){
-	objBoxy.isOnPlat = true;
 	failed = false; 
 }
 if (failed == true) {
 	fall(myLevel); 	
 }
 else {
-	audio_play_sound(sndLowerJump, 2, false);
 	checkBoxColor();
-	objBoxy.isJumping = false; 
-	objBoxy.canJump = true;
-	objBoxy.myGroundSpeedX = nearest.mySpeedX;
-	objBoxy.myGroundSpeedY = nearest.mySpeedY;
-	nearest.isShrinking = true;
 }

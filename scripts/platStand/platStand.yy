@@ -1,8 +1,8 @@
 {
-    "id": "f9cd87e2-286b-40aa-b21b-8d71a73155fb",
+    "id": "d7935863-30c8-43c8-8d21-a28de78be21f",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "script3",
+    "name": "platStand",
     "IsCompatibility": false,
     "IsDnD": false
 }

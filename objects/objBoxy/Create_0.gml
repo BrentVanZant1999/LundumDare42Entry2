@@ -3,11 +3,13 @@ myColor = objDataTracker.colorTheme1;
 myGroundSpeedX = 0;
 myGroundSpeedY = 0;
 myMovSpeed = 4; 
+myJumpSpeed = 6;
 mySize = objDataTracker.startBoxySize; 
 isStarting = true;
 isJumping = false;
 canJump = true; 
 isOnPlat = false; 
+angleJumping = 0;
 depth = 0;
 
 

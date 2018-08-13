@@ -1,0 +1,1 @@
+stepSize = mySize / existTime; 

@@ -12,13 +12,12 @@ for ( var i = 0; i < array_length_1d(movement_inputs); i++){
 
 var moving = ( point_distance(0,0,move_xinput,move_yinput) > 0 );
 if( keyboard_check(vk_space)){
-	if (moving == true) {
 		if (canJump == true) {
-			jump();
+			 audio_play_sound(sndJump, 2, false);
+			jump(point_direction(x,y,mouse_x,mouse_y));
 			canJump = false; 
 			isJumping = true; 
 		}
-	}
 }
  
 
@@ -29,6 +28,22 @@ if moving  {
 	  y += lengthdir_y(myMovSpeed, move_dir);
 	}
 }
-
+if ( isJumping = false ) {
 	x += myGroundSpeedX;
     y += myGroundSpeedY;
+}
+else {
+	  x += lengthdir_x(myJumpSpeed, angleJumping);
+	  y += lengthdir_y(myJumpSpeed, angleJumping);
+	  var part = instance_create_depth(x,y,depth+1,objJumpParticle);
+	  part.myColor = myColor;
+	  part.mySize = mySize;
+}
+
+
+if (isOnPlat) {
+	platStand();
+}
+
+
+//check boundary logic

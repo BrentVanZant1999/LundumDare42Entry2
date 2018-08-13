@@ -17,6 +17,7 @@ sizeMin = 30;
 sizeMax = 140; 
 minSpeed = 0.5;
 maxSpeed = 5;
+fallTime = 2; 
 
 startBoxySize = 20;
 maskColor = make_color_rgb(252,195,124);
@@ -28,12 +29,12 @@ colorTheme5 = make_color_rgb(232,172,184);
 colorTheme6 = make_color_rgb(96,213,218);
 colorTheme7 = make_color_rgb(231,242,234);
 
-plat1Speed = 1; 
-plat2Speed = 1; 
-plat3Speed = 2; 
-plat4Speed = 2; 
-plat5Speed = 4; 
-plat6Speed = 6; 
+plat1Speed = 0.25; 
+plat2Speed = 0.5; 
+plat3Speed = 0.5; 
+plat4Speed = 0.75; 
+plat5Speed = 1; 
+plat6Speed = 1; 
 plat7Speed = 0; 
 
 alarm[5] = 10;

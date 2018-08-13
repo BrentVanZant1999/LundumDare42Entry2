@@ -1,8 +1,8 @@
 {
-    "id": "f9cd87e2-286b-40aa-b21b-8d71a73155fb",
+    "id": "4df03be7-1d20-4447-a426-6425298b9193",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "jump",
+    "name": "checkBoxColor",
     "IsCompatibility": false,
     "IsDnD": false
 }
