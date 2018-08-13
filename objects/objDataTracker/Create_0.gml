@@ -1,3 +1,4 @@
+depth = -100; 
 shadowOffsetY1 = 4;
 shadowOffsetX1 = 2;
 shadowOffsetY2 = 4;
@@ -17,6 +18,8 @@ inGame = false;
 gameTimer = 60; 
 inGameScore = 0; 
 modalSize = 500;
+isWon = false; 
+
 sizeMin = 30; 
 sizeMax = 140; 
 minSpeed = 0.5;

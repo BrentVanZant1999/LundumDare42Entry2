@@ -68,6 +68,7 @@ else {
 	nearest.isShrinking = true;
 	
 	if (objBoxy.myLevel == 14){
+		objDataTracker.isWon = true;
 		endGame();	
 	}
 }

@@ -11,7 +11,7 @@ for (var i = 0; i<7; i++){
 	    else {
 			spawnY = size+room_height;
 		}
-		spawnX =irandom_range(objDataTracker.sizeMin, 600-objDataTracker.sizeMin);
+		spawnX =irandom_range(objDataTracker.sizeMin, room_width-50-objDataTracker.sizeMin);
 	}
 	else {
 		if ( choice == 1) {
@@ -20,7 +20,7 @@ for (var i = 0; i<7; i++){
 		else {
 			spawnX = size+room_width; 
 		}
-		spawnY =irandom_range(objDataTracker.sizeMin, 600-objDataTracker.sizeMin);
+		spawnY =irandom_range(objDataTracker.sizeMin, room_height-50-objDataTracker.sizeMin);
 	}
 		var created;
 		switch(i) {
